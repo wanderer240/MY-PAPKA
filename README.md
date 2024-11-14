@@ -1,1 +1,160 @@
-# MY-PAPKA
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devise-width,initial-scale=1.0">
+    <title>Информация о ваших любимых пушках</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <header>
+     <a id="start"></a>
+    <h1>САМЫЕ ЛУЧШИЕ ВИДЫ ОРУЖИЯ</h1>
+        <nav>
+            <ul>
+                 <li><a href="#home"></a></li>
+                 <li><a href="#about"></a></li>
+            </ul>
+        </nav> 
+     </header>
+     <main>
+         <section id="home">
+    <p>На нашей планете есть много интересного оружия.Давайте узнаем о некоторых из них-</p>
+    <h2>Топ-10 интереснейшых пушек</h2>
+    <ul>
+        <li><U>РПГ 7</U></li>
+        <li><U>ПM</U></li>
+        <li><U>M4A1</U></li>
+        <li><U>AK74</U></li>
+        <li><U>Glok17</U></li>
+        <li><U>MP5</U></li>
+        <li><U>MP7</U></li>
+        <li><U>FN P90</U></li>
+        <li><U>FAMAS</U></li>
+        <li><U>AUG A3</U></li>    
+    </ul>
+    <h2><U>Узнай больше!</U></h2>
+    <p><U>Хотите узнать немного о штурмовых винтовках пистолетов и тд?Вот несколько полезных ссылок</U></p>  
+    <ul>
+        <li><a href="https://ru.wikipedia.org/wiki/%D0%A0%D0%9F%D0%93-7">РПГ 7 на википендии</a></li>
+        <iframe src="https://www.youtube.com/embed/LrGg5H0_IjM" 
+        width="560"
+        height="315" 
+        frameborder="0" 
+        allowfullscreen 
+        title="Встраиваемое видео"></iframe><br>
+        <img src="images/RPG-7_detached.jpg" alt="рпг 7" width="560"
+        height="315" title="рпг 7" loading="lazy"> <br>
+        <li><a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%B8%D1%81%D1%82%D0%BE%D0%BB%D0%B5%D1%82_%D0%9C%D0%B0%D0%BA%D0%B0%D1%80%D0%BE%D0%B2%D0%B0">Пистолет ПМ на википендии</a></li>
+        <iframe src="https://www.youtube.com/embed/Zoto-NBYxxM" 
+        width="560"
+        height="315" 
+        frameborder="0" 
+        allowfullscreen 
+        title="Встраиваемое видео"></iframe><br>
+        <img src="images/Makarov_(28034065).jpeg" alt="ПМ" width="560"
+        height="315" title="ПМ" loading="lazy"> <br>
+        <li><a href="https://ru.wikipedia.org/wiki/M4_(%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82)">штурмовая винтовка м4а1 на википендии</a></li> 
+        <iframe src="https://www.youtube.com/embed/DDmhNq6x1HM" 
+        width="560"
+        height="315" 
+        frameborder="0" 
+        allowfullscreen 
+        title="Встраиваемое видео"></iframe><br>
+        <img src="images/icon_1281471678390.jpg"  alt="M4A1" width="560"
+        height="315" title="M4A1" loading="lazy"> <br>
+        <li><a href="https://ru.wikipedia.org/wiki/%D0%90%D0%9A-74">штурмовая винтовка AK74 на википендии</a></li> 
+        <iframe src="https://www.youtube.com/embed/MrC715ZacnA" 
+        width="560"
+        height="315" 
+        frameborder="0" 
+        allowfullscreen 
+        title="Встраиваемое видео"></iframe><br>
+        <video src="video/9770707-hd_1920_1080_25fps.mp4" controls loop poster="images/AK74.jpg" width="640" height="360">Видео не поддерживается браузером</video><br>
+        <video src="video/3927046-uhd_4096_2160_25fps.mp4" controls loop poster="images/AK74.jpg" width="640" height="360">Видео не поддерживается браузером</video><br>
+        <img src="images/rg-avtomat-ak-74-eng-im-1.jpg"  alt="ак74" width=""
+        height="315" title="ак74" loading="lazy"> <br>
+        <li><a href="https://ru.wikipedia.org/wiki/Glock_17 ">Пистолет Glok 17 на википендии</a></li>
+            <audio controls loop>
+                <source src="audio/vyistrel-pistoleta-36125.mp3" type="audio/mpeg">
+                <source src="audio/vyistrel-pistoleta-36125.mp3" type="audio/ogg">
+                <source src="audio/vyistrel-pistoleta-36125.mp3" type="audio/wag">
+            </audio> 
+            <img src="images/Glock_17_(6825676904) (1).jpg"  alt="Glock_17" width="560"
+            height="" title="Glock_17" loading="lazy"> <br>
+        <li><a href="https://ru.wikipedia.org/wiki/HK_MP5">Пистолет пулемёт MP 5 на википендии</a></li>
+        <iframe src="https://www.youtube.com/embed/by9K2yfWo0E"
+        width="560"
+        height="315" 
+        frameborder="0" 
+        allowfullscreen 
+        title="Встраиваемое видео"></iframe><br>
+        <img src="images/hk_mp5n.jpg"  alt="mp5" width="560"
+        height="315" title="MP5" loading="lazy"> <br>
+        <li><a href="https://ru.wikipedia.org/wiki/HK_MP7">Пистолет пулемёт MP 7 на википендии</a></li> 
+        <iframe src="https://www.youtube.com/embed/m3KxtXmqg2I"
+        width="560"
+        height="315" 
+        frameborder="0" 
+        allowfullscreen 
+        title="Встраиваемое видео"></iframe><br>
+        <img src="images/icon_1275679925593.jpg"  alt="mp7" width="560"
+        height="315" title="MP7" loading="lazy"> <br>
+        <li><a href="https://ru.wikipedia.org/wiki/FN_P90">Пистолет пулемёт FN P90 на википендии</a></li> 
+        <iframe src="https://www.youtube.com/embed/mXssl7R5gOk"
+        width="560"
+        height="315" 
+        frameborder="0" 
+        allowfullscreen 
+        title="Встраиваемое видео"></iframe><br>
+        <img src="images/1280px-FN-P90_2.jpg"  alt="P90" width="560"
+        height="315" title="P90" loading="lazy"> <br>
+        <li><a href="https://ru.wikipedia.org/wiki/FAMAS">штурмовая винтовка FAMAS на википендии</a></li>
+        <iframe src="https://www.youtube.com/embed/ChQvOuWT7BY"
+        width="560"
+        height="315" 
+        frameborder="0" 
+        allowfullscreen 
+        title="Встраиваемое видео"></iframe><br>
+        <img src="images/icon_1281727120695.jpg"  alt="FAMAS" width="560"
+        height="315" title="FAMAS" loading="lazy"> <br>
+        <li><a href="https://ru.wikipedia.org/wiki/Steyr_AUG">штурмовая винтовка AUG A3 на википендии</a></li>
+        <iframe src="https://youtube.com/embed/t_qiG5HEJu8"
+        width="560"
+        height="315" 
+        frameborder="0" 
+        allowfullscreen 
+        title="Встраиваемое видео"></iframe><br>
+        <img src="images/AUG_A1_508mm_04.jpg"  alt="AUG A3" width="560"
+        height="315" title="AUG A3" loading="lazy"> <br>
+    </ul>
+ </section>
+ <section id="about">
+    <ul>
+        <H2><B>ЧТО НЕЛЬЗЯ ДЕЛАТЬ</B></H2>
+        <LI><U>НЕ НАВОДИТЕ ОРУЖИЕ НА ЛЮДЕЙ</s></LI>
+        <LI><U>НЕ В КОЕМ СЛУЧАЕ НЕ СТРЕЛЯЙТЕ В ЛЮДЕЙ ИЗ ОРУЖИЯ</s></LI>
+        <LI><U>НЕ ПОКУПЙТЕ ОРУЖИЕ НА ЧЕРНОМ РЫНКЕ</s></LI>
+        <H2><B>ЧТО МОЖНО ДЕЛАТЬ</B></H2>
+        <LI><U>ЕСЛИ ВЫ ХОТИТЕ ПОСТРЕЛЯТЬ ИЗ ОРУЖИЯ ХОДИТЕ В СТРЕЛКОВЫЕ СЕКЦИИ ИЛИ НА СТРЕЛЬБИЩА</U></LI>
+        <LI><U>ЧТОБЫ ОРУЖИЕ НЕ ИСПОРТИЛОСЬ ВЫ ДОЛЖНЫ ЕГО ПРОТЕРАТЬ ПОТОМУ-ЧТО ОНО МОЖЕТ ЗАСОРИТСЯ И ВЗОРВАТСЯ</U></LI>
+    </ul> 
+    <h2><B>ЗАКЛЮЧЕНИЕ</B></h2>
+    <p>Оружие-опасное,но очень полезное и убойное изобретение человечества.Иследуйте оружейный мир вне нашего сайта! </p>
+ </section>
+ <aside>
+     <a href="./test.html">Внутренняя ссылка</a>
+     <br>
+     <a href="#start">Вернутся в начало</a>
+     <br>
+     <button class="my_button">Нажми на меня</button>
+ </aside>
+</main>
+<footer>
+    <p>Контактные данные о разработчике</p>
+    <a href="https://t.me/KURSDOLLARS/" target="_blank">Telegram разраба.В скорем будут обновления,новые виды вооружения и доп факты</a>
+</footer>
+</body>
+</html>
+
+
