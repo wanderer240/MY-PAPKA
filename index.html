@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-     <header>
-     <a id="start"></a>
+    <header>
+    <a id="start"></a>
     <h1>САМЫЕ ЛУЧШИЕ ВИДЫ ОРУЖИЯ</h1>
         <nav>
             <ul>
-                 <li><a href="#home"></a></li>
-                 <li><a href="#about"></a></li>
+                <li><a href="#home"></a></li>
+                <li><a href="#about"></a></li>
             </ul>
         </nav> 
-     </header>
-     <main>
-         <section id="home">
+    </header>
+    <main>
+        <section id="home">
     <p>На нашей планете есть много интересного оружия.Давайте узнаем о некоторых из них-</p>
     <h2>Топ-10 интереснейшых пушек</h2>
     <ul>
@@ -137,8 +137,8 @@
         allowfullscreen 
         title="Встраиваемое видео"></iframe><br>
     </ul>
- </section>
- <section id="about">
+    </section>
+    <section id="about">
     <ul>
         <H2><B>ЧТО НЕЛЬЗЯ ДЕЛАТЬ</B></H2>
         <LI><U>НЕ НАВОДИТЕ ОРУЖИЕ НА ЛЮДЕЙ</s></LI>
@@ -150,14 +150,53 @@
     </ul> 
     <h2><B>ЗАКЛЮЧЕНИЕ</B></h2>
     <p>Оружие-опасное,но очень полезное и убойное изобретение человечества.Иследуйте оружейный мир вне нашего сайта! </p>
- </section>
- <aside>
-     <a href="./test.html">Внутренняя ссылка</a>
-     <br>
-     <a href="#start">Вернутся в начало</a>
-     <br>
-     <button class="my_button">Нажми на меня</button>
- </aside>
+    </section>
+    <section>
+    <h2>Хотите прогулятся в галерее игр,а я вас и не спрашивал:</h2>
+    <img id="slider" src="" alt="Изображение" width="194" height="182">
+    <br>
+    <button class="my_button" onclick="previousImage()">Предыдущее</button>
+    <button class="my_button" onclick="nextImage()">Слудующее</button>
+    <script>
+
+        const images = [
+            'images/af203a17-73f5-46fb-bfcd-495944602251.jpg',
+            'images/header.jpg',
+            'images/274px-Metro_2033_The_Last_Refuge_cover_xbox360.jpg',
+            'images/capsule_616x353.jpg',
+            'images/OkiEgtGBelkpycZD2NDtpA.jpg'
+        ];
+
+        let currentIndex = 0;
+
+        function updateImage() { 
+            const slider = document.getElementById('slider');
+            slider.src = images[currentIndex];
+        }
+
+        function nextImage() {
+            currentIndex = (currentIndex + 1) % images.length;
+
+            updateImage();
+        }
+
+        
+        function previousImage() {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+
+            updateImage();
+        }
+
+        updateImage();
+    </script>
+    </section>
+    <aside>
+    <a href="./test.html">Внутренняя ссылка</a>
+    <br>
+    <a href="#start">Вернутся в начало</a>
+    <br>
+    <button class="my_button">Нажми на меня</button>
+</aside>
 </main>
 <footer>
     <p>Контактные данные о разработчике</p>
